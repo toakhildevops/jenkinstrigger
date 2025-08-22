@@ -1,10 +1,10 @@
 pipeline{
 		agent any
 		stages{
-			stage('Build Stage'){
+			stage('Build'){
 				 step{
 				 		sh 'echo "build complated."'
-								}
+					 }
 
 			}
 		}
